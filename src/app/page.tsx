@@ -271,6 +271,171 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About the Owner Section */}
+      <section className="py-20 relative overflow-hidden gray-pattern-3">
+        {/* Background decoration */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-20 w-64 h-64 bg-blue-400 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-48 h-48 bg-indigo-500 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-blue-300 rounded-full blur-3xl animate-pulse delay-2000"></div>
+        </div>
+
+        <div className="max-w-6xl mx-auto px-4 relative z-10">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <div className="inline-block mb-6">
+                <span className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg">
+                  <Users className="w-4 h-4 inline mr-1" />
+                  About the Owner
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                Meet
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600"> Yahya Mouiguina</span>
+              </h2>
+              <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                Your trusted web development partner, dedicated to creating exceptional digital experiences for Moroccan businesses.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="max-w-4xl mx-auto">
+            <ScrollReveal delay={100}>
+              <div className="bg-white/90 backdrop-blur-sm border-2 border-gray-200 p-8 md:p-12 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300">
+                <div className="grid md:grid-cols-2 gap-12 items-center">
+                  {/* Left Side - Profile Info */}
+                  <div className="space-y-8">
+                    <div className="text-center md:text-left">
+                      <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center shadow-2xl mx-auto md:mx-0 mb-6">
+                        <span className="text-white text-4xl font-bold">YM</span>
+                      </div>
+                      <h3 className="text-3xl font-bold text-gray-900 mb-2">Yahya Mouiguina</h3>
+                      <p className="text-blue-600 font-semibold text-lg mb-4">Full-Stack Web Developer</p>
+                      <p className="text-gray-600 leading-relaxed">
+                        Passionate about creating beautiful, functional websites that help Moroccan businesses grow online. 
+                        With years of experience in modern web technologies, I deliver quality solutions that exceed expectations.
+                      </p>
+                    </div>
+
+                    {/* Skills/Expertise */}
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200">
+                        <div className="flex items-center space-x-2 mb-2">
+                          <Monitor className="w-5 h-5 text-blue-600" />
+                          <span className="font-semibold text-gray-900">Frontend</span>
+                        </div>
+                        <p className="text-sm text-gray-600">React, Next.js, Tailwind</p>
+                      </div>
+                      <div className="bg-gradient-to-r from-indigo-50 to-indigo-100 p-4 rounded-xl border border-indigo-200">
+                        <div className="flex items-center space-x-2 mb-2">
+                          <Settings className="w-5 h-5 text-indigo-600" />
+                          <span className="font-semibold text-gray-900">Backend</span>
+                        </div>
+                        <p className="text-sm text-gray-600">Node.js, Databases</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Right Side - Contact Info */}
+                  <div className="space-y-6">
+                    <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-2xl border border-gray-200">
+                      <h4 className="font-bold text-gray-900 mb-6 flex items-center">
+                        <MapPin className="w-5 h-5 text-gray-600 mr-2" />
+                        Contact Information
+                      </h4>
+                      
+                      {/* Address */}
+                      <div className="space-y-4">
+                        <div className="flex items-start space-x-3 p-3 bg-white rounded-xl border border-gray-100">
+                          <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center shadow-md">
+                            <HomeIcon className="w-5 h-5 text-white" />
+                          </div>
+                          <div>
+                            <p className="font-semibold text-gray-900 text-sm">Address</p>
+                            <p className="text-gray-600 text-sm">N47 Anza Oulya Bloc C</p>
+                            <p className="text-gray-600 text-sm">Agadir, Morocco</p>
+                          </div>
+                        </div>
+
+                        {/* Email */}
+                        <div className="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-100">
+                          <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center shadow-md">
+                            <Mail className="w-5 h-5 text-white" />
+                          </div>
+                          <div>
+                            <p className="font-semibold text-gray-900 text-sm">Email</p>
+                            <p className="text-gray-600 text-sm">yahya.mouiguina2000@gmail.com</p>
+                          </div>
+                        </div>
+
+                        {/* Phone */}
+                        <div className="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-100">
+                          <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center shadow-md">
+                            <Phone className="w-5 h-5 text-white" />
+                          </div>
+                          <div>
+                            <p className="font-semibold text-gray-900 text-sm">Phone</p>
+                            <p className="text-gray-600 text-sm">+212 658860346</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Why Choose Me */}
+                    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 p-6 rounded-2xl">
+                      <h4 className="font-bold text-gray-900 mb-4 flex items-center">
+                        <Award className="w-5 h-5 text-blue-600 mr-2" />
+                        Why Choose Me?
+                      </h4>
+                      <div className="space-y-3">
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                          <span className="text-sm text-gray-700">100% Risk-Free Guarantee</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                          <span className="text-sm text-gray-700">Local Understanding</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                          <span className="text-sm text-gray-700">Fast Delivery (5 Days)</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                          <span className="text-sm text-gray-700">Affordable Pricing</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Call to Action */}
+                <div className="mt-12 text-center">
+                  <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-6">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">
+                      Ready to Work Together?
+                    </h4>
+                    <p className="text-gray-600 mb-6">
+                      Let&apos;s discuss your project and bring your vision to life
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                      <button className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2">
+                        <MessageCircle className="w-5 h-5" />
+                        <span>WhatsApp Me</span>
+                      </button>
+                      <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2">
+                        <Mail className="w-5 h-5" />
+                        <span>Send Email</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Cards - Interactive */}
       <section className="py-20 gray-pattern-4 relative overflow-hidden">
         {/* Background effects */}
