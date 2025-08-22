@@ -6,7 +6,7 @@ export default function Home() {
   const sendWhatsAppMessage = (customMessage?: string) => {
     const defaultMessage = "Bonjour YahyaWeb! Je veux créer un site web exceptionnel avec votre équipe.";
     const message = customMessage || defaultMessage;
-    window.open(`https://wa.me/212658860346?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/212603314744?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (

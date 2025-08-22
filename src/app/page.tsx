@@ -137,7 +137,7 @@ export default function Home() {
   const sendWhatsAppMessage = (customMessage?: string) => {
     const defaultMessage = "Je veux commander mon site web avec le dépôt de 20$ - YahyaWeb";
     const message = customMessage || defaultMessage;
-    window.open(`https://wa.me/212658860346?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/212603314744?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
