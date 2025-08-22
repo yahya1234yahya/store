@@ -1,6 +1,6 @@
 'use client';
 
-import { Globe, CheckCircle, Shield, MessageCircle, ArrowRight, Users, Code, Palette, Zap, Star, Clock, Award, Monitor, Smartphone, Search } from 'lucide-react';
+import { Globe, CheckCircle, Shield, MessageCircle, ArrowRight, Users, Code, Palette, Zap, Star, Clock, Award, Search } from 'lucide-react';
 
 export default function Home() {
   const sendWhatsAppMessage = (customMessage?: string) => {
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Design UI/UX</h3>
               <p className="text-blue-100 mb-6">
-                Interfaces modernes et intuitives qui captivent vos visiteurs et optimisent l'expérience utilisateur.
+                Interfaces modernes et intuitives qui captivent vos visiteurs et optimisent l&apos;expérience utilisateur.
               </p>
               <ul className="space-y-2 text-blue-200">
                 <li className="flex items-center space-x-2">
@@ -318,7 +318,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Prêt à créer quelque chose d'extraordinaire ?
+            Prêt à créer quelque chose d&apos;extraordinaire ?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
             Rejoignez nos 200+ clients satisfaits et donnez vie à votre vision digitale

@@ -1,6 +1,6 @@
 'use client';
 
-import { Globe, CheckCircle, Shield, MessageCircle, ArrowRight, CreditCard, Lock, Clock, Award, Users, Star } from 'lucide-react';
+import { Globe, Shield, MessageCircle, ArrowRight, CreditCard, Lock, Clock, Award, Users, Star } from 'lucide-react';
 
 export default function Home() {
   const sendWhatsAppMessage = (customMessage?: string) => {
@@ -209,7 +209,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-center mb-3" style={{color: '#532200'}}>
-                "Excellent service! Site livré en 4 jours, exactement comme promis. Équipe très professionnelle."
+                &quot;Excellent service! Site livré en 4 jours, exactement comme promis. Équipe très professionnelle.&quot;
               </p>
               <div className="text-center text-sm" style={{color: '#914110'}}>
                 - Ahmed M., Client YahyaWeb

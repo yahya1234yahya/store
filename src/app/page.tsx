@@ -1,6 +1,6 @@
 'use client';
 
-import { Globe, CheckCircle, Shield, MessageCircle, ArrowRight, CreditCard, Lock, Clock, Award, Users, Star, Package, Gift, Settings, Zap, Eye, HelpCircle } from 'lucide-react';
+import { Shield, MessageCircle, ArrowRight, CreditCard, Clock, Award, Users, Star, Package, Gift, Settings, Zap, Eye, HelpCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
